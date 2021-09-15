@@ -52,4 +52,83 @@
     text-decoration: underline lightseagreen;
 }
 
+.bodysection{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+    margin-left: 260px;
+    width: 857px;
+    
+}
+.mynamesection{
+    margin-top: 5px;
+    text-align: left;
+    text-align: center;
+    justify-content: left;
+}
+.mynamesection h1{
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color:rgba(9, 30, 66, 1);
+  
+}
+.mynamesection :hover{
+  text-decoration: underline lightseagreen;
+}
 
+.introsection p{
+   
+font-family: Poppins;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(52, 69, 99, 1);
+}
+.introsection :hover{
+  text-decoration: underline lightseagreen;
+}
+.connect{
+  margin-top: 20px;
+}
+.connect a{
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(127, 140, 255, 1);
+  
+}
+.connect :hover{
+  text-decoration: underline lightseagreen;
+}
+.connect-logos{
+  display: flex;
+  margin-top: 10px;
+  width: 180px;
+  text-align: left;
+  justify-content: space-between;
+  
+}
+
+.linkedin-logo{
+  display: flex;
+  transform: translateY(1px);
+}
+.letter-I{
+  transform: translateY(-2px);
+}
+
+.linkedin-logo a{
+  display: grid;
+  justify-content: start;
+  
+}
