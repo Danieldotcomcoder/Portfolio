@@ -37,7 +37,7 @@
 }
 
 .navbar a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-size: 15px;
   font-weight: 600;
   line-height: 20px;
