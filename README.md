@@ -1,12 +1,16 @@
 # Project Name: Portfolio-setup-and-mobile-version-skeleton .
 
-> This is a Portfolio setup project . 
+> In this project I built the mobile version of my portfolio , It contains mainly two parts the header and the headline , the header is divided into two sections: the status bar 
+> which contains the clock,battery,wifi etc.. and the toolbar that have the logo section and the icon menu . The Headline contains 3 main section which introduce me and show how
+> to contact me. 
 
 
 
-In This Project we will achieve these following points:
-  * Build a toolbar (header) section.
-  * Build the headline section. 
+In order to get a copy of this project :
+ - use The git clone command for this URl ( git clone [url] ) 
+     > https://github.com/Danieldotcomcoder/Portfolio-setup-and-mobile-version-skeleton.git
+ - Or visit the URL then click on code and Download ZIP.
+ - Use the live server extension of VS Code to preview the project.
 
 ## Built With
 
