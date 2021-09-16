@@ -21,11 +21,11 @@
 }
 
 .logo a {
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 20px;
-  letter-spacing: 0cm;
+  
   text-align: center;
   color: rgba(96, 112, 255, 1);
 }
@@ -90,9 +90,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
-  letter-spacing: 0em;
+  
   text-align: left;
-  color:rgba(52, 69, 99, 1);
+  color: rgba(52, 69, 99, 1);
 }
 
 .introsection :hover {
@@ -110,7 +110,7 @@
   font-weight: 500;
   line-height: 24px;
   text-align: left;
-  color:rgba(127, 140, 255, 1);
+  color: rgba(127, 140, 255, 1);
 }
 
 .connect :hover {
@@ -140,17 +140,17 @@
 }
 
 #pic1 {
-  transform: translate(880px,-390px);
+  transform: translate(880px, -390px);
 }
 
 #pic2 {
-  transform: translate(600px,-515px);
+  transform: translate(600px, -515px);
 }
 
 #pic3 {
-   position: absolute;
-   top: 132px;
-   right: 660px;
+  position: absolute;
+  top: 132px;
+  right: 660px;
 }
 
 #pic4 {
