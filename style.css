@@ -52,7 +52,7 @@ header {
   margin-left: 24px;
 }
 
-.logo-section h2 {
+.logo-section a {
   font-family: 'Poppins', sans-serif, Verdana;
   font-size: 18px;
   font-style: normal;
@@ -92,7 +92,7 @@ header {
   margin-top: 12px;
 }
 
-.primary-text h2 {
+.primary-text h1,h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
