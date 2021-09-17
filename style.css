@@ -9,6 +9,7 @@
 
 header {
   height: 92px;
+  width: 373px;
 }
 
 .status-bar {
@@ -145,8 +146,8 @@ header {
 body {
   background:
 
-    url(img/Ellipse3.png) no-repeat 330px 150px,
-    url(img/Rectangle4.png) no-repeat 300px 115px,
+    url(img/Ellipse3.png) no-repeat 320px 145px,
+    url(img/Rectangle4.png) no-repeat 290px 115px,
     url(img/Ellipse8.png) no-repeat 200px 110px,
     url(img/Rectangle7.png) no-repeat 110px 165px,
     url(img/Ellipse5.png) no-repeat 110px 175px,
@@ -156,7 +157,7 @@ body {
     url(img/Ellipse13.png) no-repeat 290px 546px,
     url(img/Ellipse4.png) no-repeat 250px 640px,
     url(img/Rectangle5.png) no-repeat 200px 638px;
-}
+  }
 
 .works {
   height: 2788px;
@@ -357,11 +358,19 @@ body {
   justify-content: center;
 }
 
+.seeproject a:hover {
+  text-decoration: 2px underline cyan;
+}
+
+.seeproject1 a:hover {
+  text-decoration: 2px underline cyan;
+}
+
 .about-myself {
   display: grid;
   justify-content: center;
   height: 1263px;
-  width: 375px;
+  width: 370px;
 }
 
 .top-section {
@@ -462,6 +471,10 @@ body {
   margin-left: 12px;
 }
 
+.about-myself-getmyresume a:hover {
+  text-decoration: 2px underline cyan;
+}
+
 .skill-list-section {
   display: flex;
   grid-row: 2;
@@ -477,15 +490,6 @@ body {
   width: 327px;
 }
 
-.skill-languages-text {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 327px;
-  height: 72px;
-}
-
 .skill-language-text h2 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
@@ -495,22 +499,31 @@ body {
   text-align: center;
   height: 70px;
   color: rgba(0, 0, 0, 1);
-  border: 1px solid lightgrey;
-  border-radius: 8px;
+  width: 200px;
+  height: 27px;
+  transform: translateX(-35px);
+}
+
+.skill-language-text img {
+  transform: translate(275px,-22px);
 }
 
 .skill-framework {
   height: 72px;
   width: 327px;
-  border: 1px solid lightgrey;
-  border-radius: 8px;
+  border-bottom: 1px solid lightgray;
+}
+
+.skill-framework img {
+  position: absolute;
+  left: 300px;
+  transform: translateY(-19px);
 }
 
 .skill-skill {
   height: 68px;
   width: 327px;
-  border: 1px solid lightgrey;
-  border-radius: 8px;
+  border-bottom: 1px solid lightgray;
 }
 
 .skill-framework h2 {
@@ -523,6 +536,7 @@ body {
   color: rgba(0, 0, 0, 1);
   margin-top: 25px;
   margin-left: 30px;
+  width: 200px;
 }
 
 .skill-skill h2 {
@@ -536,3 +550,10 @@ body {
   margin-top: 18px;
   margin-left: 30px;
 }
+
+.skill-skill img {
+  position: absolute;
+  left: 300px;
+  transform: translateY(-17px);
+}
+
