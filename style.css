@@ -320,7 +320,7 @@ body {
   font-weight: 600;
   line-height: 16px;
   text-align: left;
-  color:rgba(122, 134, 154, 1);
+  color: rgba(122, 134, 154, 1);
 }
 
 .project-description p {
@@ -330,7 +330,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  color:rgba(52, 69, 99, 1);
+  color: rgba(52, 69, 99, 1);
 }
 
 .seeproject a {
@@ -375,7 +375,6 @@ body {
 .about-myself-text1 {
   height: 101px;
   width: 327px;
-  margin-top: 0px;
 }
 
 .about-myself-text2 {
