@@ -1,0 +1,52 @@
+ <section class="about-myself">
+        <div class="top-section">
+            <div class="about-myself-text1">
+                <h2>About</h2>
+                <h2>Myself</h2>
+            </div>
+            <div class="about-myself-text2">
+                <p>Hello I’m a software developer! I can help you build a product ,
+                    feature or website Look through some of my work and experience!
+                    If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+            </div>
+            <div class="about-myself-socialmedia">
+                <div class="about-myself-letsconnect">
+                    <h2>LET'S CONNECT</h2>
+                </div>
+                <div class="about-myself-sociallinks">
+                    <ul class="about-myself-sociallists">
+                        <li> <a href="https://twitter.com/DannyDotcoder" target="_blank" rel="noreferrer noopener">
+                                <img src="img/Vector.png" alt="vector">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/daniel-shdeed-832b03115/" target="_blank"
+                                rel="noreferrer noopener">
+                                <img src="img/Linkedinicon.png" alt="linkedinicon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noreferrer noopener">
+                                <img src="img/Vector(1).png" alt="ector1">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Danieldotcomcoder" target="_blank" rel="noreferrer noopener">
+                                <img src="img/Vector(2).png" alt="vector2">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" rel="noreferrer noopener">
+                                <img src="img/Vector(3).png" alt="vector3">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="about-myself-getmyresume">
+
+            </div>
+        </div>
+
+    </section>

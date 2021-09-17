@@ -350,3 +350,186 @@ body {
   color:rgba(57, 109, 242, 1);
   justify-content: center;
 }
+
+.about-myself {
+  display: grid;
+  justify-content: center;
+  height: 1263px;
+  width: 375px;
+}
+
+.top-section {
+  grid-row: 1;
+  margin-top:114px;
+  height: 409px;
+  width: 327px;
+}
+
+.about-myself-text1 {
+  height: 101px;
+  width: 327px;
+  margin-top: 0px;
+}
+
+.about-myself-text2 {
+  height: 144px;
+  width: 327px;
+  margin-top: 12px;
+}
+
+.about-myself-socialmedia {
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  width: 200px;
+  margin-top: 12px;
+}
+
+.about-myself-letsconnect {
+  height: 24px;
+  width: 119px;
+}
+
+.about-myself-sociallinks {
+  height: 40px;
+  width: 200px;
+  margin-top: 16px;
+}
+
+.about-myself-sociallists {
+  height: 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.about-myself-getmyresume {
+  height: 48px;
+  width: 162px;
+  margin-top: 5px;
+  border: 1px solid rgba(96, 112, 255, 1);
+  border-radius: 8px;
+  display: flex;
+}
+
+.about-myself-text1 h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+}
+
+.about-myself-text2 p {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color:rgba(52, 69, 99, 1);
+}
+
+.about-myself-letsconnect h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(127, 140, 255, 1);
+}
+
+.about-myself-getmyresume a{
+  height: 24px;
+  width: 138px;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(57, 109, 242, 1);
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
+.skill-list-section{
+  display: flex;
+  grid-row: 2;
+  height: 464px;
+  width: 327px;
+}
+
+.skill-languages-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 320px;
+  width: 327px;
+}
+
+.skill-languages-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 327px;
+  height: 72px;
+  
+}
+.skill-language-text h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  height: 70px;
+  color: rgba(0, 0, 0, 1);
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+.skill-framework {
+  height: 72px;
+  width: 327px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+.skill-skill {
+  height: 68px;
+  width: 327px;
+  border: 1px solid lightgrey;
+  border-radius: 8px;
+}
+
+.skill-framework h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.skill-skill h2 {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  margin-top: 18px;
+  margin-left: 30px;
+}
