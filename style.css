@@ -103,7 +103,7 @@ header {
   color: rgba(23, 43, 77, 1);
 }
 
-.primary-text h1{
+.primary-text h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -310,7 +310,7 @@ body {
   font-weight: 600;
   line-height: 16px;
   text-align: left;
-  color:rgba(52, 69, 99, 1);
+  color: rgba(52, 69, 99, 1);
 }
 
 .project-frame h4 {
@@ -319,9 +319,8 @@ body {
   font-style: normal;
   font-weight: 600;
   line-height: 16px;
-  letter-spacing: 0em;
   text-align: left;
-  color:rgba(122, 134, 154, 1);
+  color: rgba(122, 134, 154, 1);
 }
 
 .project-description p {
@@ -330,7 +329,6 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color:rgba(52, 69, 99, 1);
 }
@@ -344,7 +342,7 @@ body {
   height: 24px;
   width: 100px;
   text-align: center;
-  color:rgba(57, 109, 242, 1);
+  color: rgba(57, 109, 242, 1);
 }
 
 .seeproject1 a {
@@ -356,7 +354,7 @@ body {
   height: 24px;
   width: 100px;
   text-align: center;
-  color:rgba(57, 109, 242, 1);
+  color: rgba(57, 109, 242, 1);
   justify-content: center;
 }
 
@@ -453,7 +451,7 @@ body {
   color: rgba(127, 140, 255, 1);
 }
 
-.about-myself-getmyresume a{
+.about-myself-getmyresume a {
   height: 24px;
   width: 138px;
   font-family: Poppins, sans-serif;
@@ -466,7 +464,7 @@ body {
   margin-left: 12px;
 }
 
-.skill-list-section{
+.skill-list-section {
   display: flex;
   grid-row: 2;
   height: 464px;
