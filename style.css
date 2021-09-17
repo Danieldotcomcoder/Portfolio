@@ -153,9 +153,7 @@ body {
 .works {
   height: 2788px;
   display: grid;
-  
   justify-content: center;
-  border: 1px solid crimson;
 }
 
 .card-works {
@@ -168,13 +166,22 @@ body {
   border-radius: 16px;
 }
 
+.card-works1 {
+  display: flex;
+  flex-direction: column;
+  width: 327px;
+  height: 596px;
+  margin-top: 88px;
+  border: 1px solid blue;
+  border-radius: 16px;
+}
+
 .snapshot-portfolio {
   margin-top: 16px;
   margin-left: 16px;
   width: 295px;
   height: 220px;
   border-radius: 8px;
-  border: 1px solid cyan;
 }
 
 .info-block {
@@ -184,35 +191,162 @@ body {
   height: 288px;
   margin-left: 16px;
   margin-top: 12px;
-  border: 1px solid rebeccapurple;
+}
+
+.info-block1 {
+  display: flex;
+  flex-direction: column;
+  width: 295px;
+  height: 335px;
+  margin-left: 16px;
+  margin-top: 12px;
 }
 
 .primary-text-box {
   width: 295px;
   height: 80px;
-  border: 1px solid fuchsia;
+}
+
+.primary-text-box1 {
+  width: 295px;
+  height: 124px;
 }
 
 .project-description {
   margin-top: 12px;
   height: 76px;
   width: 295px;
-  border: 1px solid black;
 }
 
 .project-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   height: 24px;
   width: 203px;
   margin-top: 12px;
-  border: 1px solid green;
 }
 
 .seeproject {
-  margin-top: 24px;
-  margin-bottom: 28px;
+  display: flex;
+  margin-top: 28px;
+  margin-bottom: 18px;
+  margin-left: 16px;
   width: 124px;
   height: 48px;
-  border: 1px solid navy;
-  border-radius: 5px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 1px solid rgba(96, 112, 255, 1);
+  border-radius: 10px;
+}
 
+.seeproject1 {
+  display: flex;
+  margin-top: 28px;
+  margin-bottom: 18px;
+  margin-left: 16px;
+  width: 124px;
+  height: 52px;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  border: 1px solid rgba(96, 112, 255, 1);
+  border-radius: 10px;
+}
+
+.project-title {
+  height: 36px;
+  width: 295px;
+}
+
+.project-title1 {
+  height: 80px;
+  width: 295px;
+}
+
+.project-title h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+}
+
+.project-title1 h1 {
+  font-family: Poppins, sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+  color: rgba(23, 43, 77, 1);
+}
+
+.project-frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 236px;
+  height: 32px;
+}
+
+.project-frame h3 {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-align: left;
+  color:rgba(52, 69, 99, 1);
+}
+
+.project-frame h4 {
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:rgba(122, 134, 154, 1);
+}
+
+.project-description p {
+  font-family: Poppins, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color:rgba(52, 69, 99, 1);
+}
+
+.seeproject a {
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  height: 24px;
+  width: 100px;
+  text-align: center;
+  color:rgba(57, 109, 242, 1);
+}
+
+.seeproject1 a {
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  height: 24px;
+  width: 100px;
+  text-align: center;
+  color:rgba(57, 109, 242, 1);
+  justify-content: center;
 }
