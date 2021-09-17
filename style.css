@@ -157,7 +157,7 @@ body {
     url(img/Ellipse13.png) no-repeat 290px 546px,
     url(img/Ellipse4.png) no-repeat 250px 640px,
     url(img/Rectangle5.png) no-repeat 200px 638px;
-  }
+}
 
 .works {
   height: 2788px;
@@ -333,6 +333,19 @@ body {
   color: rgba(52, 69, 99, 1);
 }
 
+.about-myself-getmyresume a {
+  height: 24px;
+  width: 138px;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgba(57, 109, 242, 1);
+  margin-top: 12px;
+  margin-left: 12px;
+}
+
 .seeproject a {
   font-family: Poppins, sans-serif;
   font-size: 17px;
@@ -458,19 +471,6 @@ body {
   color: rgba(127, 140, 255, 1);
 }
 
-.about-myself-getmyresume a {
-  height: 24px;
-  width: 138px;
-  font-family: Poppins, sans-serif;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  color: rgba(57, 109, 242, 1);
-  margin-top: 12px;
-  margin-left: 12px;
-}
-
 .about-myself-getmyresume a:hover {
   text-decoration: 2px underline cyan;
 }
@@ -497,7 +497,6 @@ body {
   font-weight: 500;
   line-height: 24px;
   text-align: center;
-  height: 70px;
   color: rgba(0, 0, 0, 1);
   width: 200px;
   height: 27px;
@@ -505,7 +504,7 @@ body {
 }
 
 .skill-language-text img {
-  transform: translate(275px,-22px);
+  transform: translate(275px, -22px);
 }
 
 .skill-framework {
@@ -556,4 +555,3 @@ body {
   left: 300px;
   transform: translateY(-17px);
 }
-
