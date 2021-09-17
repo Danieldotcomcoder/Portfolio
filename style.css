@@ -320,7 +320,7 @@ body {
   font-weight: 600;
   line-height: 16px;
   text-align: left;
-  color: rgba(122, 134, 154, 1);
+  color:rgba(122, 134, 154, 1);
 }
 
 .project-description p {
@@ -367,7 +367,7 @@ body {
 
 .top-section {
   grid-row: 1;
-  margin-top:114px;
+  margin-top: 114px;
   height: 409px;
   width: 327px;
 }
@@ -438,7 +438,7 @@ body {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-  color:rgba(52, 69, 99, 1);
+  color: rgba(52, 69, 99, 1);
 }
 
 .about-myself-letsconnect h2 {
@@ -486,15 +486,14 @@ body {
   align-items: center;
   width: 327px;
   height: 72px;
-  
 }
+
 .skill-language-text h2 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: center;
   height: 70px;
   color: rgba(0, 0, 0, 1);
@@ -522,7 +521,6 @@ body {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0em;
   text-align: left;
   color: rgba(0, 0, 0, 1);
   margin-top: 25px;
