@@ -631,7 +631,7 @@ body {
   height: 48px;
   background-color: white;
   border-radius: 10px;
-  font-family: Poppin,sans-serif;
+  font-family: Poppin, sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -664,9 +664,6 @@ body {
   border-radius: 8px;
   display: flex;
   justify-content: center;
-}
-
-.getintouch {
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
@@ -675,6 +672,7 @@ body {
   text-align: center;
   align-items: center;
   color: rgba(96, 112, 255, 1);
+  border: none;
 }
 
 button:enabled {
