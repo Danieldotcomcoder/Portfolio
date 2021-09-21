@@ -679,5 +679,12 @@ body {
 }
 
 .getintouch:hover {
-  text-decoration: 2px underline cyan;
+  color: #fff;
+  background-color: rgba(96, 112, 255, 1);
 }
+
+.getintouch:enabled {
+  color: rgba(96, 112, 255, 1);
+  background-color: #fff;
+}
+
