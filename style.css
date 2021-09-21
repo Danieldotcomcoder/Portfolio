@@ -667,13 +667,7 @@ body {
   justify-content: center;
 }
 
-.getintouchbox {
-  margin-top: 12px;
-  height: 24px;
-  width: 108px;
-}
-
-.getintouch a {
+.getintouch {
   font-family: Poppins, sans-serif;
   font-size: 17px;
   font-style: normal;
@@ -681,10 +675,9 @@ body {
   line-height: 24px;
   text-align: center;
   align-items: center;
-  text-decoration: none;
   color: rgba(96, 112, 255, 1);
 }
 
-.getintouch a:hover {
+.getintouch:hover {
   text-decoration: 2px underline cyan;
 }
