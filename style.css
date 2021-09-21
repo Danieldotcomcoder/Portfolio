@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -554,4 +556,135 @@ body {
   position: absolute;
   left: 300px;
   transform: translateY(-17px);
+}
+
+.contact-me {
+  width: 375px;
+  height: 779px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background:
+    
+    no-repeat url(img/Ellipse-3.png) 328px 50px,
+    no-repeat url(img/Rectangle-4.png) 310px 25px,
+    no-repeat url(img/Ellipse-12.png)  160px 50px,
+    no-repeat url(img/Rectangle-7.png) 250px 660px,
+    no-repeat url(img/Ellipse-5.png)   255px 690px,
+    no-repeat url(img/Contact\ me.png);
+}
+
+.contact-me-text1 {
+  margin-top: 103px;
+  height: 56px;
+  width: 371px;
+}
+
+.contact-me-text1 h2 {
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.contact-me-text2 {
+  margin-top: 12px;
+  width: 327px;
+  height: 102px;
+}
+
+.contact-me-text2 p {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: rgba(235, 235, 255, 1);
+}
+
+.form-list {
+  list-style-type: none;
+}
+
+.name-section {
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  margin-top: 87px;
+  width: 327px;
+  height: 48px;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  color: rgba(23, 43, 77, 1);
+}
+
+.email-section {
+  margin-top: 20px;
+  width: 327px;
+  height: 48px;
+  background-color: white;
+  border-radius: 10px;
+  font-family: Poppins;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  border: none;
+  color: rgba(23, 43, 77, 1);
+}
+
+.message-section {
+  margin-top: 18px;
+  width: 327px;
+  height: 170px;
+  background-color: white;
+  border-radius: 8px;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 20px;
+  border: none;
+  color: rgba(23, 43, 77, 1);
+}
+
+.getintouch {
+  width: 140px;
+  height: 48px;
+  background-color: white;
+  margin-top: 22px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.getintouchbox {
+  margin-top: 12px;
+  height: 24px;
+  width: 108px;
+}
+
+.getintouch a {
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 24px;
+  text-align: center;
+  align-items: center;
+  text-decoration: none;
+  color: rgba(96, 112, 255, 1);
+}
+
+.getintouch a:hover {
+  text-decoration: 2px underline cyan;
 }
