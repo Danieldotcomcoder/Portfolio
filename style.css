@@ -678,13 +678,13 @@ body {
   color: rgba(96, 112, 255, 1);
 }
 
-.getintouch:hover {
-  color: #fff;
-  background-color: rgba(96, 112, 255, 1);
-}
-
-.getintouch:enabled {
+button:enabled {
   color: rgba(96, 112, 255, 1);
   background-color: #fff;
+}
+
+button:hover {
+  color: #fff;
+  background-color: rgba(96, 112, 255, 1);
 }
 
