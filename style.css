@@ -565,7 +565,6 @@ body {
   flex-direction: column;
   align-items: center;
   background:
-    
     no-repeat url(img/Ellipse-3.png) 328px 50px,
     no-repeat url(img/Rectangle-4.png) 310px 25px,
     no-repeat url(img/Ellipse-12.png)  160px 50px,
@@ -581,7 +580,7 @@ body {
 }
 
 .contact-me-text1 h2 {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -632,7 +631,7 @@ body {
   height: 48px;
   background-color: white;
   border-radius: 10px;
-  font-family: Poppins;
+  font-family: Poppin,sans-serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -687,4 +686,3 @@ button:hover {
   color: #fff;
   background-color: rgba(96, 112, 255, 1);
 }
-
