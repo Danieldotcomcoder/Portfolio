@@ -775,6 +775,11 @@ header {
     color: rgba(255, 255, 255, 1);
     text-decoration: none;
   }
+
+  .getintouch:hover {
+    color: rgba(255, 255, 255, 1);
+    background: rgb(96, 223, 255);
+  }
 }
 
 .about-myself {
