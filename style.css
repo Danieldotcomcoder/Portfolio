@@ -809,7 +809,7 @@ header {
 
 .about-myself-text1 {
   height: 101px;
-  width: 100%px;
+  width: 40%;
 }
 
 .about-myself-text2 {
@@ -932,9 +932,8 @@ header {
 }
 
 .skill-framework img {
-  
   left: 300px;
-  transform: translate(280px,-16px);
+  transform: translate(280px, -16px);
 }
 
 .skill-skill {
@@ -970,7 +969,7 @@ header {
 
 .skill-skill img {
   left: 300px;
-  transform: translate(280px,-16px);
+  transform: translate(280px, -16px);
 }
 
 .contact-me {
