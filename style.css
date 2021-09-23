@@ -1118,7 +1118,7 @@ button:hover {
 
   .about-myself-text1 {
     align-self: flex-start;
-    margin-left: 10%;
+    margin-left: 2%;
   }
 
   .about-myself-text2 {
@@ -1154,6 +1154,7 @@ button:hover {
     margin-top: 5%;
     height: 75%;
     width: 50%;
+    margin-right: 15%;
   }
 
   .skill-languages-list {
@@ -1163,7 +1164,7 @@ button:hover {
 
   .skill-language-text {
     margin-top: 10%;
-    background: url(img/desktop/Union1.png) no-repeat 100% 50%;
+    background: url(img/desktop/Union1.png) no-repeat 100% 40%;
   }
 
   .skill-language-text h2 {
@@ -1175,6 +1176,7 @@ button:hover {
     text-align: left;
     color: rgba(52, 69, 99, 1);
     margin-left: 9%;
+    margin-bottom: 4%;
   }
 
   .skill-language-text img {
