@@ -361,6 +361,15 @@ header {
   margin-top: 12px;
 }
 
+.project-tags1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 24px;
+  width: 203px;
+  margin-top: 12px;
+}
+
 .seeproject {
   display: flex;
   margin-top: 28px;
