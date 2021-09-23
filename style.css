@@ -672,7 +672,7 @@ header {
   .project-title1 {
     margin-top: 2%;
     width: 100%;
-   }
+  }
 
   .project-title1 h1 {
     font-family: Poppins, sans-serif;
@@ -1092,7 +1092,7 @@ button:hover {
     align-self: flex-start;
     margin-left: 10%;
   }
-   
+
   .about-myself-text2 {
     align-self: flex-start;
     margin-top: 2%;
@@ -1227,7 +1227,7 @@ button:hover {
   }
 
   .contact-me-text2 p {
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1250,9 +1250,9 @@ button:hover {
     height: 20%;
     margin-left: 16%;
   }
-  
+
   .name-section {
-   width: 70%;   
+    width: 70%;
     margin-top: 1%;
     border-radius: 0%;
   }
