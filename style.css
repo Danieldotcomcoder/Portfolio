@@ -11,7 +11,7 @@
 
 header {
   height: 92px;
-  width: 373px;
+  width: 100%;
 }
 
 .status-bar {
@@ -20,11 +20,12 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 44px;
+  width: 95%;
 }
 
 .time-section {
-  width: 54px;
-  margin-left: 30px;
+  width: 30%;
+  margin-left: 0%;
 }
 
 .time-section h2 {
@@ -41,10 +42,11 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 48px;
+  width: 95%;
 }
 
 .logo-section {
-  margin-left: 24px;
+  margin-left: 10%;
 }
 
 .logo-section a {
@@ -58,7 +60,7 @@ header {
 }
 
 .icon-menu {
-  margin-right: 35px;
+  margin-right: 5%;
 }
 
 .body-section {
@@ -67,6 +69,7 @@ header {
   align-items: center;
   margin-top: 114px;
   height: 100%;
+  width: 100%;
 }
 
 .primary-text {
@@ -84,10 +87,10 @@ header {
 
 .connect {
   align-self: start;
-  width: 117px;
+  width: 30%;
   height: 24px;
-  margin-left: 24px;
-  margin-top: 12px;
+  margin-left: 5%;
+  margin-top: 1%;
 }
 
 .primary-text h2 {
@@ -131,15 +134,19 @@ header {
   display: flex;
   flex-direction: row;
   align-self: start;
-  width: 170px;
+  width: 40%;
   height: 20px;
-  margin-left: 24px;
-  margin-top: 12px;
+  margin-left: 5%;
+  margin-top: 3%;
   justify-content: space-between;
   align-items: center;
 }
 
-@media screen and (min-width: 600px) {
+.right-section {
+  margin-left: 10%;
+}
+
+@media screen and (min-width: 1100px) {
   .right-section {
     display: none;
   }
@@ -255,7 +262,7 @@ header {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1100px) {
   .navbar {
     display: none;
   }
@@ -265,13 +272,13 @@ header {
 
       url(img/Ellipse3.png) no-repeat  100% 2.8%,
       url(img/Rectangle4.png) no-repeat 100% 2.1%,
-      url(img/Ellipse8.png) no-repeat 200px 110px,
-      url(img/Rectangle7.png) no-repeat 110px 165px,
-      url(img/Ellipse5.png) no-repeat 110px 175px,
-      url(img/Rectangle6.png) no-repeat 5px 115px,
-      url(img/Ellipse11.png) no-repeat 5px 140px,
-      url(img/Ellipse12.png) no-repeat 300px 535px,
-      url(img/Ellipse13.png) no-repeat 290px 546px;
+      url(img/Ellipse8.png) no-repeat 60% 2.2%,
+      url(img/Rectangle7.png) no-repeat 35% 2.4%,
+      url(img/Ellipse5.png) no-repeat 35% 2.6%,
+      url(img/Rectangle6.png) no-repeat 1% 2%,
+      url(img/Ellipse11.png) no-repeat 1% 2.2%,
+      url(img/Ellipse12.png) no-repeat 80% 10%,
+      url(img/Ellipse13.png) no-repeat 80% 10%;
   }
 
   .snapshot-portfolio img {
@@ -552,7 +559,7 @@ header {
   text-decoration: 2px underline cyan;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
   .works {
     width: 100%;
     height: 2788px;
@@ -564,10 +571,11 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: 120px;
-    width: 1156px;
+    width: 95%;
     height: 70%;
     border: 1px solid grey;
     border-radius: 16px;
+    margin-left: 5%;
   }
 
   .snapshot-portfolio {
@@ -660,10 +668,11 @@ header {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 120px;
-    width: 1156px;
+    width: 95%;
     height: 70%;
     border: 1px solid grey;
     border-radius: 16px;
+    margin-left: 5%;
   }
 
   .info-block1 {
@@ -786,49 +795,52 @@ header {
   display: grid;
   justify-content: center;
   height: 1263px;
-  width: 370px;
+  width: 100%;
+  margin-left: 2%;
 }
 
 .top-section {
   grid-row: 1;
-  margin-top: 114px;
+  margin-top: 10%;
   height: 409px;
-  width: 327px;
+  width: 100%;
+  margin-left: 2%;
 }
 
 .about-myself-text1 {
   height: 101px;
-  width: 327px;
+  width: 100%px;
 }
 
 .about-myself-text2 {
   height: 144px;
-  width: 327px;
-  margin-top: 12px;
+  width: 100%;
+  margin-top: 5%;
+  margin-right: 2%;
 }
 
 .about-myself-socialmedia {
   display: flex;
   flex-direction: column;
   height: 80px;
-  width: 200px;
-  margin-top: 12px;
+  width: 40%;
+  margin-top: 1%;
 }
 
 .about-myself-letsconnect {
   height: 24px;
-  width: 119px;
+  width: 90%;
 }
 
 .about-myself-sociallinks {
   height: 40px;
-  width: 200px;
-  margin-top: 16px;
+  width: 100%;
+  margin-top: 8%;
 }
 
 .about-myself-sociallists {
   height: 40px;
-  width: 200px;
+  width: 90%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -837,8 +849,8 @@ header {
 
 .about-myself-getmyresume {
   height: 48px;
-  width: 162px;
-  margin-top: 5px;
+  width: 160px;
+  margin-top: 5%;
   border: 1px solid rgba(96, 112, 255, 1);
   border-radius: 8px;
   display: flex;
@@ -850,7 +862,7 @@ header {
   font-style: normal;
   font-weight: 700;
   line-height: 52px;
-  text-align: left;
+  text-align: center;
   color: rgba(23, 43, 77, 1);
 }
 
@@ -882,7 +894,10 @@ header {
   display: flex;
   grid-row: 2;
   height: 464px;
-  width: 327px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1%;
 }
 
 .skill-languages-list {
@@ -890,7 +905,7 @@ header {
   flex-direction: column;
   justify-content: space-between;
   height: 320px;
-  width: 327px;
+  width: 100%;
 }
 
 .skill-language-text h2 {
@@ -901,7 +916,7 @@ header {
   line-height: 24px;
   text-align: center;
   color: rgba(0, 0, 0, 1);
-  width: 200px;
+  width: 80%;
   height: 27px;
   transform: translateX(-35px);
 }
@@ -912,19 +927,19 @@ header {
 
 .skill-framework {
   height: 72px;
-  width: 327px;
+  width: 100%;
   border-bottom: 1px solid lightgray;
 }
 
 .skill-framework img {
-  position: absolute;
+  
   left: 300px;
-  transform: translateY(-19px);
+  transform: translate(280px,-16px);
 }
 
 .skill-skill {
   height: 68px;
-  width: 327px;
+  width: 100%;
   border-bottom: 1px solid lightgray;
 }
 
@@ -938,7 +953,7 @@ header {
   color: rgba(0, 0, 0, 1);
   margin-top: 25px;
   margin-left: 30px;
-  width: 200px;
+  width: 100%;
 }
 
 .skill-skill h2 {
@@ -954,24 +969,24 @@ header {
 }
 
 .skill-skill img {
-  position: absolute;
   left: 300px;
-  transform: translateY(-17px);
+  transform: translate(280px,-16px);
 }
 
 .contact-me {
-  width: 373px;
+  width: 100%;
+  margin-left: 2%;
   height: 779px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background:
-    no-repeat url(img/Ellipse-3.png) 328px 50px,
-    no-repeat url(img/Rectangle-4.png) 310px 25px,
-    no-repeat url(img/Ellipse-12.png)  160px 50px,
-    no-repeat url(img/Rectangle-7.png) 250px 660px,
-    no-repeat url(img/Ellipse-5.png)   255px 690px,
-    no-repeat url(img/Contact\ me.png);
+    no-repeat url(img/Ellipse-3.png) 100% 8%,
+    no-repeat url(img/Rectangle-4.png) 100% 4%,
+    no-repeat url(img/Ellipse-12.png)  40% 8%,
+    no-repeat url(img/Rectangle-7.png) 84% 92%,
+    no-repeat url(img/Ellipse-5.png)   75% 93%,
+    no-repeat url(img/desktop/contact\ form-\ background-shape-desktop.png);
 }
 
 .contact-me-text1 {
@@ -1086,7 +1101,7 @@ button:hover {
   background-color: rgba(96, 112, 255, 1);
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1100px) {
   .about-myself {
     display: flex;
     flex-direction: row;
