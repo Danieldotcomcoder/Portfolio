@@ -139,9 +139,7 @@ header {
   align-items: center;
 }
 
-
-@media screen and (min-width:600px) {
-  
+@media screen and (min-width: 600px) {
   .right-section {
     display: none;
   }
@@ -168,13 +166,13 @@ header {
   }
   
   .navbar a {
-  font-family: 'Poppins', sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 20px;
-  text-align: center;
-  color: rgba(52, 69, 99, 1);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(52, 69, 99, 1);
   }
 
   .navbar a:hover {
@@ -1292,5 +1290,4 @@ button:hover {
     margin-left: 24%;
   }
 
-  
 }
