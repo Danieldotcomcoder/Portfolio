@@ -608,7 +608,7 @@ header {
   }
 
   .project-frame {
-    margin-top: 4%;
+    margin-top: 6%;
     width: 60%;
   }
 
@@ -634,7 +634,7 @@ header {
 
   .project-description {
     width: 92%;
-    margin-top: 5%;
+    margin-top: 7%;
   }
 
   .project-description p {
@@ -697,7 +697,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 7%;
     width: 60%;
   }
 
