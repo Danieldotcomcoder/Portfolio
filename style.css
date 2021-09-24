@@ -123,17 +123,17 @@ header {
   text-align: left;
   color: rgba(52, 69, 99, 1);
   animation-name: slides;
-  animation-duration: 0.5s;
+  animation-duration: 3s;
 }
 
 @keyframes slides {
   from {
-    margin-right: 100%;
-    width: 200%;
+    margin-left: 100%;
+    width: 300%;
   }
 
   to {
-    margin-right: 0%;
+    margin-left: 0%;
     width: 100%;
   }
 }  
