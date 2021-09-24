@@ -122,7 +122,21 @@ header {
   line-height: 24px;
   text-align: left;
   color: rgba(52, 69, 99, 1);
+  animation-name: slides;
+  animation-duration: 0.5s;
 }
+
+@keyframes slides {
+  from {
+    margin-right: 100%;
+    width: 200%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 100%;
+  }
+}  
 
 .connect h2 {
   font-family: 'Poppins', sans-serif;
@@ -182,13 +196,14 @@ header {
     font-style: normal;
     font-weight: 500;
     line-height: 20px;
-    text-align: center;
+    text-align: left;
     color: rgba(52, 69, 99, 1);
+    transition: all 0.5s ease-in;
   }
 
   .navbar a:hover {
-    font-size: 16px;
-    color: black;
+    font-size: 18px;
+    color: rgb(29, 29, 158);
   }
 
   .body-section {
