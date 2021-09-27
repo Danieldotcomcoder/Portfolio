@@ -312,31 +312,31 @@ header {
 
 .works {
   height: 2788px;
-  display: grid;
-  justify-content: center;
-  width: 99%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .card-works {
   display: flex;
   flex-direction: column;
   margin-top: 80px;
-  width: 98%;
+  width: 96%;
   height: 552px;
   border: 1px solid grey;
   border-radius: 16px;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 .card-works1 {
   display: flex;
   flex-direction: column;
-  width: 98%;
+  width: 96%;
   height: 596px;
   margin-top: 88px;
   border: 1px solid blue;
   border-radius: 16px;
-  margin-left: 3%;
+  margin-left: 2%;
 }
 
 .snapshot-portfolio {
@@ -350,7 +350,7 @@ header {
 .info-block {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 99%;
   height: 288px;
   margin-left: 1%;
   margin-top: 12px;
@@ -462,7 +462,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 70%;
   height: 32px;
 }
 
@@ -501,7 +501,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 60%;
+  width: 70%;
   height: 32px;
 }
 
@@ -919,7 +919,7 @@ header {
 .skill-list-section {
   display: flex;
   grid-row: 2;
-  height: 464px;
+  height: 504px;
   width: 100%;
   align-items: center;
   justify-content: center;
