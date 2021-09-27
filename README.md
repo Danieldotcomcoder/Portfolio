@@ -1,16 +1,16 @@
-# Project Name: Portfolio-setup-and-mobile-version-skeleton .
+# Project Name: Personal Portfolio .
 
-> In this project I built the mobile version of my portfolio , It contains mainly two parts the header and the headline , the header is divided into two sections: the status bar 
-> which contains the clock,battery,wifi etc.. and the toolbar that have the logo section and the icon menu . The Headline contains 3 main section which introduce me and show how
-> to contact me. 
+> In this project I built my personal portfolio , It is a Responsive webpage so you can view it on your mobile or on a Desktop version , The webpage consists of 5 main sections: header, body-section, works-section, about myself-section and finally contact-me section.
 
 
 
 In order to get a copy of this project :
  - use The git clone command for this URl ( git clone [url] ) 
-     > https://github.com/Danieldotcomcoder/Portfolio-setup-and-mobile-version-skeleton.git
+     > https://github.com/Danieldotcomcoder/Danieldotcomcoder.github.io.git
  - Or visit the URL then click on code and Download ZIP.
- - Use the live server extension of VS Code to preview the project.
+ 
+If you want to visit my webpage use the link below :
+ > https://danieldotcomcoder.github.io/
 
 ## Built With
 
@@ -35,7 +35,6 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - Hat tip to anyone whose code was used
-- Inspiration
 - Thanks for figma for inspiring this desgin. :)
 
 
