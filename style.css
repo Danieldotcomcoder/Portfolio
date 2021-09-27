@@ -325,7 +325,7 @@ header {
   height: 552px;
   border: 1px solid grey;
   border-radius: 16px;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .card-works1 {
@@ -336,7 +336,7 @@ header {
   margin-top: 88px;
   border: 1px solid blue;
   border-radius: 16px;
-  margin-left: 2%;
+  margin-left: 3%;
 }
 
 .snapshot-portfolio {
@@ -597,11 +597,11 @@ header {
     display: flex;
     flex-direction: row;
     margin-top: 120px;
-    width: 98%;
+    width: 95%;
     height: 70%;
     border: 1px solid grey;
     border-radius: 16px;
-    margin-left: 5%;
+    margin-left: 3%;
   }
 
   .snapshot-portfolio {
@@ -694,11 +694,11 @@ header {
     display: flex;
     flex-direction: row-reverse;
     margin-top: 120px;
-    width: 98%;
+    width: 95%;
     height: 70%;
     border: 1px solid grey;
     border-radius: 16px;
-    margin-left: 5%;
+    margin-left: 3%;
   }
 
   .info-block1 {
@@ -1261,7 +1261,7 @@ button:hover {
   }
 
   .contact-me {
-    width: 100%;
+    width: 97%;
     background:
       url(img/desktop/e3.png) no-repeat 95% 15%,
       url(img/desktop/r4.png) no-repeat 92% 9%,
