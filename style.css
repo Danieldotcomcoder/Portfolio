@@ -829,7 +829,7 @@ header {
   grid-row: 1;
   margin-top: 10%;
   height: 409px;
-  width: 100%;
+  width: 97%;
   margin-left: 2%;
 }
 
@@ -840,7 +840,7 @@ header {
 
 .about-myself-text2 {
   height: 144px;
-  width: 100%;
+  width: 98%;
   margin-top: 5%;
   margin-right: 2%;
 }
@@ -876,7 +876,7 @@ header {
 .about-myself-getmyresume {
   height: 48px;
   width: 160px;
-  margin-top: 5%;
+  margin-top: 2%;
   border: 1px solid rgba(96, 112, 255, 1);
   border-radius: 8px;
   display: flex;
