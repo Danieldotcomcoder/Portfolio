@@ -437,7 +437,7 @@ header {
   width: 295px;
 }
 
-.project-title h1 {
+.project-title h2 {
   font-family: Poppins, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -447,7 +447,7 @@ header {
   color: rgba(23, 43, 77, 1);
 }
 
-.project-title1 h1 {
+.project-title1 h2 {
   font-family: Poppins, sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -902,7 +902,7 @@ header {
   color: rgba(52, 69, 99, 1);
 }
 
-.about-myself-letsconnect h2 {
+.about-myself-letsconnect h3 {
   font-family: Poppins, sans-serif;
   font-size: 16px;
   font-style: normal;
@@ -934,7 +934,7 @@ header {
   width: 100%;
 }
 
-.skill-language-text h2 {
+.skill-language-text h3 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -968,7 +968,7 @@ header {
   border-bottom: 1px solid lightgray;
 }
 
-.skill-framework h2 {
+.skill-framework h3 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -981,7 +981,7 @@ header {
   width: 100%;
 }
 
-.skill-skill h2 {
+.skill-skill h3 {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   font-style: normal;
@@ -1193,7 +1193,7 @@ button:hover {
     background: url(img/desktop/Union1.png) no-repeat 100% 40%;
   }
 
-  .skill-language-text h2 {
+  .skill-language-text h3 {
     font-family: Poppins, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -1232,7 +1232,7 @@ button:hover {
     background: url(img/desktop/Union2.png) no-repeat 100% 20%;
   }
 
-  .skill-framework h2 {
+  .skill-framework h3 {
     font-family: Poppins, sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -1242,7 +1242,7 @@ button:hover {
     color: rgba(52, 69, 99, 1);
   }
 
-  .skill-skill h2 {
+  .skill-skill h3 {
     font-family: Poppins, sans-serif;
     font-size: 20px;
     font-style: normal;
