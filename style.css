@@ -17,6 +17,7 @@ header {
 .status-bar {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   height: 44px;
@@ -184,6 +185,7 @@ header {
     position: absolute;
     left: 75%;
     display: flex;
+    
     justify-content: space-between;
     width: 20%;
     top: 0%;
@@ -284,6 +286,24 @@ header {
 @media screen and (max-width: 1100px) {
   .navbar {
     display: none;
+    flex-direction: column;
+    
+    width: 100%;
+    
+  }
+ 
+  .navbar.show {
+    display: flex;
+  
+    width: 100%;
+    height: 625px;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: rgba(96, 112, 255, 1);
+    
+    
+
   }
 
   body {
