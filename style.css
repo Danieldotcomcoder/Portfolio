@@ -324,10 +324,10 @@ header {
   }
 
   #close-btn {
-     z-index: 1;
-     position: absolute;
-     right: 15%;
-     top: 11%;
+    z-index: 1;
+    position: absolute;
+    right: 15%;
+    top: 11%;
   }
 
   .navbar-top {
