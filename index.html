@@ -30,25 +30,25 @@
 <body>
     <header>
         <div class="status-bar">
-            <div class="time-section">
+            <div class="time-section" id="timesection">
                 <a href="#">
                     <h2>9:41</h2>
                 </a>
             </div>
-            <div class="right-section">
+            <div class="right-section" id="rightsection">
                 <img src="img/CellularConnection.png" alt="cellular connection">
                 <img src="img/Wifi.png" alt="wifi">
                 <img src="img/Battery.png" alt="battery">
             </div>
-            <ul class="navbar">
+            <ul class="navbar" id="navbar-list">
                 <li>
-                    <a href="#"> Portfolio </a>
+                    <a id="navbar-item1" href="#portfolio"> Portfolio </a>
                 </li>
                 <li>
-                    <a href="#"> About </a>
+                    <a id="navbar-item2" href="#about"> About </a>
                 </li>
                 <li>
-                    <a href="#"> Contact </a>
+                    <a id="navbar-item3" href="#contact"> Contact </a>
                 </li>
 
             </ul>
@@ -58,7 +58,8 @@
                 <a>My Logo</a>
             </div>
             <div class="icon-menu">
-                <img src="img/Union.png" alt="union">
+                <a href="#" id="menu-btn"><img src="img/Union.png" alt="union"></a>
+                <a href="#" id="close-btn"><img src="img/Xicon.png" width="20" alt="close-icon"></a>
             </div>
         </div>
     </header>
@@ -104,7 +105,7 @@
             </li>
         </ul>
     </section>
-    <section class="works">
+    <section class="works" id="portfolio">
         <div class="card-works">
             <div class="snapshot-portfolio">
                 <img src="img/desktop/0.png" alt="project image">
@@ -228,7 +229,7 @@
             </div>
         </div>
     </section>
-    <section class="about-myself">
+    <section class="about-myself" id="about">
         <div class="top-section">
             <div class="about-myself-text1">
                 <h2>About</h2>
@@ -289,14 +290,17 @@
                         </a>
                     </div>
                     <ul class="mobilesize">
-                        <li><a href="#" rel="noreferrer noopener"><img src="img/Frame9.png" alt="javascript icon"></a></li>
+                        <li><a href="#" rel="noreferrer noopener"><img src="img/Frame9.png" alt="javascript icon"></a>
+                        </li>
                         <li><a href="#" rel="noreferrer noopener"><img src="img/Frame10.png" alt="html icon"></a></li>
                         <li><a href="#" rel="noreferrer noopener"><img src="img/Frame11.png" alt="css icon"></a></li>
                     </ul>
                     <ul class="desktopsize">
-                        <li><a href="#" rel="noreferrer noopener"><img src="img/desktop/Frame9.png" alt="javascript icon"></a>
+                        <li><a href="#" rel="noreferrer noopener"><img src="img/desktop/Frame9.png"
+                                    alt="javascript icon"></a>
                         </li>
-                        <li><a href="#" rel="noreferrer noopener"><img src="img/desktop/Frame10.png" alt="html icon"></a>
+                        <li><a href="#" rel="noreferrer noopener"><img src="img/desktop/Frame10.png"
+                                    alt="html icon"></a>
                         </li>
                         <li><a href="#" rel="noreferrer noopener"><img src="img/desktop/Frame11.png" alt="css icon"></a>
                         </li>
@@ -318,7 +322,7 @@
             </ul>
         </div>
     </section>
-    <section class="contact-me">
+    <section class="contact-me" id="contact">
         <div class="contact-me-text1">
             <h2>Contact me</h2>
         </div>
@@ -354,6 +358,7 @@
 
         </div>
     </section>
+    <script src="javascript.js"></script>
 </body>
 
 </html>
