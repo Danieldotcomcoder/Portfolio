@@ -22,7 +22,6 @@ closebtn.addEventListener('click', () => {
   timesect.classList.toggle('hide');
 });
 
-
 /*let portfolioinfo = [title1= "" , Description = "",proframe=" ", projimage1 = "", technologies = "", liveversion = "", source = "",
 title2 = "", Description = "", projimage2 = "",  liveversion = "", source = ""];*/
 
@@ -76,8 +75,8 @@ technologies = document.querySelectorAll(".project-tags");
 
   const projectinformation = [
     {
-    title:"Tonic",
-    Description:"<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> ",
+    title:"Tonic1",
+    Description:"<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
     image:"img/desktop/0.png",
     technologies:"HMTL,CSS,JAVASCRIPT",
     link:"#",
@@ -111,13 +110,23 @@ technologies = document.querySelectorAll(".project-tags");
   
   const portfoliocards = document.querySelectorAll('.card-works');
  const seeprobutton = document.querySelectorAll(".seeproject");
- 
-for (i of seeprobutton){
-i.addEventListener('click', () => {
+ var closeimg = document.createElement('img');
+ closeimg.src = "img/Xicon.png";
+ closeimg.style.width = "25px";
+ closeimg.style.height = "25px";
+ closeimg.style.marginLeft = "10%";
+ closeimg.style.marginTop = "3%";
+ portfoliocards[0].appendChild(closeimg);
+
+
+ for (i of seeprobutton){
+
+  i.addEventListener('click', () => {
  
   
-  portfoliocards[0].classList.toggle('overlay');
- 
+  portfoliocards[0].classList.toggle('popup');
+  
+  
   
  
  const titlelist1popup = document.querySelectorAll('.project-title');
@@ -125,13 +134,23 @@ i.addEventListener('click', () => {
  
  titlelist1popup[0].innerHTML = projectinformation[0].title;
  titlelist1popup[1].innerHTML = projectinformation[1].title;
- titlelist1popup[2].innerHTML = projectinformation[2].title;
- titlelist1popup[3].innerHTML = projectinformation[3].title;
+ titlelist1popup[0].innerHTML = projectinformation[2].title;
+ titlelist1popup[1].innerHTML = projectinformation[3].title;
 
- const imagelistpop =  document.querySelectorAll(".snapshot-portfolio");
+ //const imagelistpop =  document.querySelectorAll(".snapshot-portfolio");
  
-
-
+ const descriptionlist = document.querySelectorAll('.popup .project-description');
+ 
+ for(let i=0 ; i < 4 ; i++){
+ descriptionlist[i].innerHTML = projectinformation[i].Description;
+ }
 
 });
 }
+
+
+
+closeimg.addEventListener('click', () => { 
+  portfoliocards[0].classList.toggle('popup');
+
+ })

@@ -875,17 +875,75 @@ header {
     background: rgb(96, 223, 255);
   }
 
-  .card-works.overlay {
+
+  .popup {
     background-color: rgb(0, 0, 0, 0.1);
     opacity: 0.95;
     box-shadow: 10px 10px 5px grey;
     z-index: 1;
-    height: 800px;
+    height: 1000px;
     width: 80%;
     margin-left: 10%;
     margin-bottom: 10%;
     cursor: pointer;
   }
+
+  .popup .snapshot-portfolio {
+    height: 50%; 
+    width: 100%;
+    margin-left: 5%; 
+    margin-top: 10%;
+  }
+  
+  .popup .snapshot-portfolio img {
+    height: 100%;  
+    width: 100%;
+  }
+  
+  .popup .primary-text-box {
+    height: 15%;
+    width: 60%;
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 0%;
+    transform: translateY(-600px);
+    
+  }
+ 
+
+  .popup .info-block{
+    margin-top: 58%;
+    margin-left: -90%;
+    height: 35%;
+    width: 100%;
+    border: 1px solid blue;
+  }
+
+  .popup .project-description {
+     height: 100%;
+     width: 65%;
+     
+  }
+
+  .popup .project-frame {
+     margin-top: 2%;
+     width: 40%; 
+  }
+   
+  .popup .seeproject {
+    display: flex;
+  }
+  
+  .popup .project-tags {
+    width: 30%;
+    bottom:  92%;
+  
+  }
+
+ /* .popup.close {
+
+    display: none;
+  }*/
 
   .project-title {
     font-family: Poppins, sans-serif;
