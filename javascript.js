@@ -21,3 +21,18 @@ closebtn.addEventListener('click', () => {
   rightsect.classList.toggle('hide');
   timesect.classList.toggle('hide');
 });
+
+const form = document.getElementById('form');
+
+
+form.addEventListener('submit' , (e) => {
+  
+    const email = document.getElementById('email');
+    const emailvalue = email.value;
+  
+    if(emailvalue !== emailvalue.toLowerCase()){
+      e.preventDefault();
+      document.getElementById('error-msg').innerHTML = "please make sure you email address is in lowercase";
+    }
+});
+
