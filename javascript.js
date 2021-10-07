@@ -29,6 +29,6 @@ form.addEventListener('submit', (e) => {
   const emailvalue = email.value;
   if (emailvalue !== emailvalue.toLowerCase()) {
     e.preventDefault();
-    document.getElementById('error-msg').innerHTML = "please make sure you email address is in lowercase";
+    document.getElementById('error-msg').innerHTML = 'please make sure you email address is in lowercase';
   }
 });
