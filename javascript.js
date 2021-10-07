@@ -38,8 +38,8 @@ function storedata() {
   const email = document.getElementById('email').value;
   const msg = document.getElementById('msg').value;
   const mystoredataobject = { name, email, msg };
-  let myobjectserialized = JSON.stringify(mystoredataobject);
-  localStorage.setItem( 'mystoredataobject', myobjectserialized); 
+  const myobjectserialized = JSON.stringify(mystoredataobject);
+  localStorage.setItem('mystoredataobject', myobjectserialized);
 }
 
 function showdata() {
