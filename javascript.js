@@ -32,3 +32,21 @@ form.addEventListener('submit', (e) => {
     document.getElementById('error-msg').innerHTML = 'Make sure your email address is in lowercase';
   }
 });
+
+function storedata() {
+  const name = document.getElementById('name').value;
+  const email = document.getElementById('email').value;
+  const msg = document.getElementById('msg').value;
+  const mystoredataobject = { name, email, msg };
+  const myobjectserialized = JSON.stringify(mystoredataobject);
+  localStorage.setItem('mystoredataobject', myobjectserialized);
+}
+
+function showdata() {
+  const stored = JSON.parse(localStorage.getItem('mystoredataobject'));
+  document.getElementById('name').value = stored.name;
+  document.getElementById('email').value = stored.email;
+  document.getElementById('msg').value = stored.msg;
+  storedata();
+}
+showdata();
