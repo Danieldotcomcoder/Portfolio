@@ -211,6 +211,11 @@ header {
     width: 80%;
   }
 
+  #error-msg {
+    color: red;
+    font-size: 15px;
+  }
+
   .primary-text h1 {
     font-family: Poppins, sans-serif;
     font-size: 48px;
