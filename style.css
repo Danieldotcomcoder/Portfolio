@@ -423,7 +423,12 @@ header {
   .popup-project-buttons button:hover {
     background-color: lightblue;
   }
-
+  
+  .snapshot-portfolio img {
+    width: 100%;
+    height: 100%;
+  }
+  
   .popup-project-buttons button img {
     margin-left: 10%;
   }
@@ -533,15 +538,9 @@ header {
       url(img/Ellipse13.png) no-repeat 80% 10%;
   }
 
-  .snapshot-portfolio img {
-    width: 100%;
-    height: 100%;
-  }
-
   .desktopsize {
     display: none;
   }
-
 }
 
 .works {
@@ -634,7 +633,7 @@ header {
   margin-top: 5%;
 }
 
-.seeproject { 
+.seeproject {
   display: flex;
   margin-top: 10%;
   margin-left: 16px;
@@ -643,7 +642,7 @@ header {
   justify-content: center;
   text-align: center;
   align-items: center;
-  border: 1px solid rgba(96, 112, 255, 1); 
+  border: 1px solid rgba(96, 112, 255, 1);
   border-radius: 10px;
   cursor: pointer;
   font-size: 20px;
@@ -868,16 +867,6 @@ header {
     width: 90%;
   }
 
-  .project-title h1 {
-    font-family: Poppins, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-    text-align: left;
-    color: rgba(9, 30, 66, 1);
-  }
-
   .project-frame {
     margin-top: 6%;
     width: 60%;
@@ -953,15 +942,6 @@ header {
   .project-title1 {
     margin-top: 2%;
     width: 100%;
-  }
-
-  .project-title1 h1 {
-    font-family: Poppins, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 52px;
-    text-align: left;
   }
 
   .project-frame1 {
@@ -1053,8 +1033,6 @@ header {
     background: rgb(96, 223, 255);
   }
 
-
-
   .project-title {
     font-family: Poppins, sans-serif;
     font-size: 40px;
@@ -1080,20 +1058,20 @@ header {
   }
 
   .popup {
-   display: none;
-   flex-direction: column;
-   border: 1px solid black;
-   width: 90%;
-   height: 1050px;
-   margin-left: 5%;
-   border-radius: 1%;
-   background-color: rgba(0, 0, 0, 0);
-   mix-blend-mode: multiply;
-   box-shadow: 10px 10px 10px grey;
-   align-self: center;
-   margin-top: -7%;
-   margin-bottom: 20%;
-   position: relative;
+    display: none;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 90%;
+    height: 1050px;
+    margin-left: 5%;
+    border-radius: 1%;
+    background-color: rgba(0, 0, 0, 0);
+    mix-blend-mode: multiply;
+    box-shadow: 10px 10px 10px grey;
+    align-self: center;
+    margin-top: -7%;
+    margin-bottom: 20%;
+    position: relative;
   }
 
   .popup-closebtn {
