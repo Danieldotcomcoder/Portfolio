@@ -3,22 +3,22 @@ const navlist = document.getElementById('navbar-list');
 const rightsect = document.getElementById('rightsection');
 const timesect = document.getElementById('timesection');
 const closebtn = document.getElementById('close-btn');
-var title1 = 'Tonic';
-var title2 = 'Multi-Post<br>Stories ';
-var Description = '<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> '
-var projimage1 = document.createElement('img');
+const title1 = 'Tonic';
+const title2 = 'Multi-Post<br>Stories ';
+const Description = '<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> ';
+const projimage1 = document.createElement('img');
 projimage1.src = 'img/desktop/0.png';
-var projimage2 = document.createElement('img');
+const projimage2 = document.createElement('img');
 projimage2.src = 'img/desktop/1.png';
-var projimage3 = document.createElement('img');
+const projimage3 = document.createElement('img');
 projimage3.src = 'img/desktop/2.png';
-var projimage4 = document.createElement('img');
+const projimage4 = document.createElement('img');
 projimage4.src = 'img/desktop/3.png';
-var htmlimg = document.createElement('img');
+const htmlimg = document.createElement('img');
 htmlimg.src = 'img/html.png';
-var cssimg = document.createElement('img');
+const cssimg = document.createElement('img');
 cssimg.src = 'img/css.png';
-var jsimg = document.createElement('img');
+const jsimg = document.createElement('img');
 jsimg.src = 'img/javascript.png';
 
 menubtn.addEventListener('click', () => {
@@ -38,7 +38,6 @@ closebtn.addEventListener('click', () => {
   rightsect.classList.toggle('hide');
   timesect.classList.toggle('hide');
 });
-
 
 const titlelist = document.querySelectorAll('.project-title');
 titlelist[0].innerHTML = title1;
@@ -67,8 +66,8 @@ for (let i = 0; i <= 3; i++) {
   technologies[i].appendChild(jsimg.cloneNode(true));
 }
 
-const projectinformation = [    // stores information for all projects           
-  {
+const projectinformation = [// stores information for all projects           
+{
     title: 'Tonic',
     Description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ',
     image: 'img/desktop/0.png',
@@ -150,7 +149,7 @@ window.addEventListener('DOMContentLoaded', () => {
 })
 
 function openpopup1() {
-  var x = document.querySelectorAll('.popup');
+  let x = document.querySelectorAll('.popup');
   if (x[0].style.display === 'flex') {
     x[0].style.display = 'none';
   } else {
@@ -160,7 +159,7 @@ function openpopup1() {
 }
 
 function closepopup1() {
-  var y = document.querySelectorAll('.popup');
+  let y = document.querySelectorAll('.popup');
   if (y[0].style.display === 'flex') {
     y[0].style.display = 'none';
   } else {
@@ -214,7 +213,7 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 })
 function openpopup2() {
-  var x = document.querySelectorAll('.popup');
+  let x = document.querySelectorAll('.popup');
   if (x[1].style.display === 'flex') {
     x[1].style.display = 'none';
   } else {
@@ -224,7 +223,7 @@ function openpopup2() {
 }
 
 function closepopup2() {
-  var y = document.querySelectorAll('.popup');
+  let y = document.querySelectorAll('.popup');
   if (y[1].style.display === 'flex') {
     y[1].style.display = 'none';
   } else {
@@ -275,7 +274,7 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 })
 function openpopup3() {
-  var x = document.querySelectorAll('.popup');
+  let x = document.querySelectorAll('.popup');
   if (x[2].style.display === 'flex') {
     x[2].style.display = 'none';
   } else {
@@ -285,7 +284,7 @@ function openpopup3() {
 }
 
 function closepopup3() {
-  var y = document.querySelectorAll('.popup');
+  let y = document.querySelectorAll('.popup');
   if (y[2].style.display === 'flex') {
     y[2].style.display = 'none';
   } else {
@@ -337,7 +336,7 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 })
 function openpopup4() {
-  var x = document.querySelectorAll('.popup');
+  let x = document.querySelectorAll('.popup');
   if (x[3].style.display === 'flex') {
     x[3].style.display = 'none';
   } else {
@@ -347,7 +346,7 @@ function openpopup4() {
 }
 
 function closepopup4() {
-  var y = document.querySelectorAll('.popup');
+  let y = document.querySelectorAll('.popup');
   if (y[3].style.display === 'flex') {
     y[3].style.display = 'none';
   } else {
@@ -389,3 +388,7 @@ function showdata() {
   storedata();
 }
 showdata();
+closepopup1();
+closepopup2();
+closepopup3();
+closepopup4();
