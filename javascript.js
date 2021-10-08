@@ -67,7 +67,7 @@ for (let i = 0; i <= 3; i++) {
 }
 
 const projectinformation = [// stores information for all projects
- {
+  {
     title: 'Tonic',
     Description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ',
     image: 'img/desktop/0.png',
@@ -176,8 +176,7 @@ seeprojectbutton[0].addEventListener('click', () => {
 });
 
 window.addEventListener('DOMContentLoaded', () => {
-  popupmodal[1].innerHTML =
-    `<div class='popup'>
+  popupmodal[1].innerHTML = `<div class='popup'>
         <div class='popup-info-block'>
             <div class='popup-primary-text-box'>
             <div class='popup-project-title'>
@@ -210,7 +209,8 @@ window.addEventListener('DOMContentLoaded', () => {
       <a href=${projectinformation[1].source}> <button>&nbsp&nbsp&nbsp&nbsp  See Source <img src='img/btn-img-src.png' width='15' height='15'></button></a>
       </div>
   </div>`;
-})
+});
+
 function openpopup2() {
   const x = document.querySelectorAll('.popup');
   if (x[1].style.display === 'flex') {
@@ -237,8 +237,7 @@ seeprojectbutton[1].addEventListener('click', () => {
 });
 
 window.addEventListener('DOMContentLoaded', () => {
-  popupmodal[2].innerHTML =
-    `<div class='popup'>
+  popupmodal[2].innerHTML = `<div class='popup'>
         <div class='popup-info-block'>
             <div class='popup-primary-text-box'>
             <div class='popup-project-title'>
@@ -271,7 +270,8 @@ window.addEventListener('DOMContentLoaded', () => {
       <a href=${projectinformation[2].source}> <button>&nbsp&nbsp&nbsp&nbsp  See Source <img src='img/btn-img-src.png' width='15' height='15'></button></a>
       </div>
   </div>`;
-})
+});
+
 function openpopup3() {
   const x = document.querySelectorAll('.popup');
   if (x[2].style.display === 'flex') {
@@ -297,10 +297,8 @@ seeprojectbutton[2].addEventListener('click', () => {
   workssection[2].classList.toggle('hide');
 });
 
-
 window.addEventListener('DOMContentLoaded', () => {
-  popupmodal[3].innerHTML =
-    `<div class='popup'>
+  popupmodal[3].innerHTML = `<div class='popup'>
         <div class='popup-info-block'>
             <div class='popup-primary-text-box'>
             <div class='popup-project-title'>
@@ -333,7 +331,8 @@ window.addEventListener('DOMContentLoaded', () => {
       <a href=${projectinformation[3].source}> <button>&nbsp&nbsp&nbsp&nbsp  See Source <img src='img/btn-img-src.png' width='15' height='15'></button></a>
       </div>
   </div>`;
-})
+});
+
 function openpopup4() {
   const x = document.querySelectorAll('.popup');
   if (x[3].style.display === 'flex') {
