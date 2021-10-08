@@ -22,19 +22,16 @@ closebtn.addEventListener('click', () => {
   timesect.classList.toggle('hide');
 });
 
-let portfolioinfo = [title1= '' , Description = '',proframe=' ', projimage1 = '', technologies = '', liveversion = '', source = '',
-title2 = '', Description = '', projimage2 = '',  liveversion = '', source = ''];
-
-title1 = 'Tonic';
-title2 = 'Multi-Post<br>Stories ';
-Description = '<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> '
-projimage1 = document.createElement('img');
+var title1 = 'Tonic';
+var title2 = 'Multi-Post<br>Stories ';
+var Description = '<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> '
+var projimage1 = document.createElement('img');
 projimage1.src = 'img/desktop/0.png';
-projimage2 = document.createElement('img');
+var projimage2 = document.createElement('img');
 projimage2.src = 'img/desktop/1.png';
-projimage3 = document.createElement('img');
+var projimage3 = document.createElement('img');
 projimage3.src = 'img/desktop/2.png';
-projimage4 = document.createElement('img');
+var projimage4 = document.createElement('img');
 projimage4.src = 'img/desktop/3.png';
 
 const titlelist = document.querySelectorAll('.project-title');
