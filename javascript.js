@@ -156,7 +156,7 @@ function openpopup1() {
   } else {
     x[0].style.display = 'flex';
   }
-  window.scroll({ top: 560 });
+  x[0].scrollIntoView();
 }
 
 function closepopup1() {
@@ -219,7 +219,7 @@ function openpopup2() {
   } else {
     x[1].style.display = 'flex';
   }
-  window.scroll({ top: 1330 });
+  x[1].scrollIntoView();
 }
 
 function closepopup2() {
@@ -280,7 +280,7 @@ function openpopup3() {
   } else {
     x[2].style.display = 'flex';
   }
-  window.scroll({ top: 2100 });
+  x[2].scrollIntoView();
 }
 
 function closepopup3() {
@@ -341,7 +341,7 @@ function openpopup4() {
   } else {
     x[3].style.display = 'flex';
   }
-  window.scroll({ top: 2870 });
+  x[3].scrollIntoView();
 }
 
 function closepopup4() {
