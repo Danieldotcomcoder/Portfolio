@@ -54,13 +54,13 @@ imglist[2].appendChild(projimage3);
 imglist[3].appendChild(projimage4);
 
 const prolist = document.querySelectorAll('.project-description');
-for (let i = 0; i < 4; i++) {
+for (let i = 0; i < 4; i += 1) {
   prolist[i].innerHTML = Description;
 }
 
 const technologies = document.querySelectorAll('.project-tags');
 
-for (let i = 0; i <= 3; i++) {
+for (let i = 0; i <= 3; i += 1) {
   technologies[i].appendChild(htmlimg.cloneNode(true));
   technologies[i].appendChild(cssimg.cloneNode(true));
   technologies[i].appendChild(jsimg.cloneNode(true));
@@ -147,6 +147,8 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 });
 
+const workssection = document.querySelectorAll('.card-works');
+
 function openpopup1() {
   const x = document.querySelectorAll('.popup');
   if (x[0].style.display === 'flex') {
@@ -168,7 +170,6 @@ function closepopup1() {
 }
 
 const seeprojectbutton = document.querySelectorAll('.seeproject');
-const workssection = document.querySelectorAll('.card-works');
 
 seeprojectbutton[0].addEventListener('click', () => {
   openpopup1();
