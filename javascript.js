@@ -66,8 +66,8 @@ for (let i = 0; i <= 3; i++) {
   technologies[i].appendChild(jsimg.cloneNode(true));
 }
 
-const projectinformation = [// stores information for all projects           
-{
+const projectinformation = [// stores information for all projects
+ {
     title: 'Tonic',
     Description: '<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ',
     image: 'img/desktop/0.png',
@@ -107,13 +107,12 @@ const projectinformation = [// stores information for all projects
     link: '#',
     source: 'https://github.com/Danieldotcomcoder/Danieldotcomcoder.github.io',
   },
-]
+];
 
 const popupmodal = document.querySelectorAll('.popup-modal');
 
 window.addEventListener('DOMContentLoaded', () => {
-  popupmodal[0].innerHTML =
-    `<div class='popup'>
+  popupmodal[0].innerHTML = `<div class='popup'>
         <div class='popup-info-block'>
             <div class='popup-primary-text-box'>
             <div class='popup-project-title'>
@@ -146,10 +145,10 @@ window.addEventListener('DOMContentLoaded', () => {
       <a href=${projectinformation[0].source}> <button>&nbsp&nbsp&nbsp&nbsp  See Source <img src='img/btn-img-src.png' width='15' height='15'></button></a>
       </div>
   </div>`;
-})
+});
 
 function openpopup1() {
-  let x = document.querySelectorAll('.popup');
+  const x = document.querySelectorAll('.popup');
   if (x[0].style.display === 'flex') {
     x[0].style.display = 'none';
   } else {
@@ -159,7 +158,7 @@ function openpopup1() {
 }
 
 function closepopup1() {
-  let y = document.querySelectorAll('.popup');
+  const y = document.querySelectorAll('.popup');
   if (y[0].style.display === 'flex') {
     y[0].style.display = 'none';
   } else {
@@ -213,7 +212,7 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 })
 function openpopup2() {
-  let x = document.querySelectorAll('.popup');
+  const x = document.querySelectorAll('.popup');
   if (x[1].style.display === 'flex') {
     x[1].style.display = 'none';
   } else {
@@ -223,7 +222,7 @@ function openpopup2() {
 }
 
 function closepopup2() {
-  let y = document.querySelectorAll('.popup');
+  const y = document.querySelectorAll('.popup');
   if (y[1].style.display === 'flex') {
     y[1].style.display = 'none';
   } else {
@@ -274,7 +273,7 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 })
 function openpopup3() {
-  let x = document.querySelectorAll('.popup');
+  const x = document.querySelectorAll('.popup');
   if (x[2].style.display === 'flex') {
     x[2].style.display = 'none';
   } else {
@@ -284,7 +283,7 @@ function openpopup3() {
 }
 
 function closepopup3() {
-  let y = document.querySelectorAll('.popup');
+  const y = document.querySelectorAll('.popup');
   if (y[2].style.display === 'flex') {
     y[2].style.display = 'none';
   } else {
@@ -336,7 +335,7 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 })
 function openpopup4() {
-  let x = document.querySelectorAll('.popup');
+  const x = document.querySelectorAll('.popup');
   if (x[3].style.display === 'flex') {
     x[3].style.display = 'none';
   } else {
@@ -346,7 +345,7 @@ function openpopup4() {
 }
 
 function closepopup4() {
-  let y = document.querySelectorAll('.popup');
+  const y = document.querySelectorAll('.popup');
   if (y[3].style.display === 'flex') {
     y[3].style.display = 'none';
   } else {
