@@ -326,7 +326,7 @@
                 I’d love to help with it </p>
         </div>
         <div class="form-section">
-            <form action="https://formspree.io/f/mdoybpkz" method="post">
+            <form action="https://formspree.io/f/mdoybpkz" method="post" id="form">
                 <ul class="form-list">
                     <li>
                         <label for="name"></label>
@@ -335,9 +335,10 @@
 
                     </li>
                     <li>
-                        <label for="mail"></label>
-                        <input type="email" id="mail" name="user_email" class="email-section" placeholder="Email"
+                        <label for="email"></label>
+                        <input type="email" id="email" name="user_email" class="email-section"  placeholder="Email"
                             required>
+                            
                     </li>
                     <li>
                         <label for="msg"></label>
@@ -345,7 +346,8 @@
                             placeholder="Write Your Message here" required></textarea>
                     </li>
                     <li>
-                        <button type="submit" class="getintouch">Get In Touch</button>
+                        <button type="submit" onclick="storedata()" class="getintouch">Get In Touch</button>
+                        <div id="error-msg"></div>
                     </li>
                 </ul>
             </form>
