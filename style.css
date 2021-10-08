@@ -423,12 +423,12 @@ header {
   .popup-project-buttons button:hover {
     background-color: lightblue;
   }
-  
+
   .snapshot-portfolio img {
     width: 100%;
     height: 100%;
   }
-  
+
   .popup-project-buttons button img {
     margin-left: 10%;
   }
@@ -863,10 +863,6 @@ header {
     margin-top: 5%;
   }
 
-  .project-title {
-    width: 90%;
-  }
-
   .project-frame {
     margin-top: 6%;
     width: 60%;
@@ -936,11 +932,6 @@ header {
   }
 
   .primary-text-box1 {
-    width: 100%;
-  }
-
-  .project-title1 {
-    margin-top: 2%;
     width: 100%;
   }
 
@@ -1042,7 +1033,7 @@ header {
     text-align: left;
     color: rgba(9, 30, 66, 1);
   }
-  
+
   .project-title1 {
     font-family: Poppins, sans-serif;
     font-size: 40px;
@@ -1052,7 +1043,7 @@ header {
     text-align: left;
     color: rgba(9, 30, 66, 1);
   }
-  
+
   .card-works.hide {
     display: none;
   }
@@ -1079,7 +1070,7 @@ header {
     left: 85%;
     cursor: pointer;
   }
-  
+
   .popup-closebtn1 {
     position: relative;
     left: 68%;
@@ -1134,11 +1125,11 @@ header {
     margin-left: 2%;
   }
 
-  .popupsnapshot img{
+  .popupsnapshot img {
     width: 100%;
     height: 100%;
   }
- 
+
   .popup-project-description {
     width: 65%;
     margin-left: 2%;
@@ -1159,7 +1150,7 @@ header {
     top: -17%;
   }
 
-  .popup-project-tags ul{
+  .popup-project-tags ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1190,7 +1181,7 @@ header {
     align-items: center;
     cursor: pointer;
   }
-  
+
   .popup-project-buttons button:hover {
     background-color: lightblue;
   }
@@ -1198,7 +1189,6 @@ header {
   .popup-project-buttons button img {
     margin-left: 10%;
   }
-
 }
 
 .about-myself {
