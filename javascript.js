@@ -73,47 +73,47 @@ for (let i = 0; i <= 3; i++) {
   technologies[i].appendChild(jsimg.cloneNode(true));
 }
 
-const projectinformation = [               
-{
-  title: "Tonic",
-  Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
-  image: "img/desktop/0.png",
-  tech1: "img/html.png",
-  tech2: "img/css.png",
-  tech3: "img/javascript.png",
-  link: "#",
-  source: "#",
-},
-{
-  title: "Multi-Post Stories ",
-  Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
-  image: "img/desktop/1.png",
-  tech1: "img/html.png",
-  tech2: "img/css.png",
-  tech3: "img/javascript.png",
-  link: "#",
-  source: "#",
-},
-{
-  title: "Tonic",
-  Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
-  image: "img/desktop/2.png",
-  tech1: "img/html.png",
-  tech2: "img/css.png",
-  tech3: "img/javascript.png",
-  link: "#",
-  source: "#",
-},
-{
-  title: "Multi-Post Stories ",
-  Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
-  image: "img/desktop/3.png",
-  tech1: "img/html.png",
-  tech2: "img/css.png",
-  tech3: "img/javascript.png",
-  link: "#",
-  source: "#",
-},
+const projectinformation = [    // stores information for all projects           
+  {
+    title: "Tonic",
+    Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
+    image: "img/desktop/0.png",
+    tech1: "img/html.png",
+    tech2: "img/css.png",
+    tech3: "img/javascript.png",
+    link: "#",
+    source: "https://github.com/Danieldotcomcoder/Danieldotcomcoder.github.io",
+  },
+  {
+    title: "Multi-Post Stories ",
+    Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
+    image: "img/desktop/1.png",
+    tech1: "img/html.png",
+    tech2: "img/css.png",
+    tech3: "img/javascript.png",
+    link: "#",
+    source: "https://github.com/Danieldotcomcoder/Danieldotcomcoder.github.io",
+  },
+  {
+    title: "Tonic",
+    Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
+    image: "img/desktop/2.png",
+    tech1: "img/html.png",
+    tech2: "img/css.png",
+    tech3: "img/javascript.png",
+    link: "#",
+    source: "https://github.com/Danieldotcomcoder/Danieldotcomcoder.github.io",
+  },
+  {
+    title: "Multi-Post Stories ",
+    Description: "<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea</p> ",
+    image: "img/desktop/3.png",
+    tech1: "img/html.png",
+    tech2: "img/css.png",
+    tech3: "img/javascript.png",
+    link: "#",
+    source: "https://github.com/Danieldotcomcoder/Danieldotcomcoder.github.io",
+  },
 ]
 
 const popupmodal = document.querySelectorAll('.popup-modal');
@@ -155,21 +155,21 @@ window.addEventListener('DOMContentLoaded', () => {
   </div>`;
 })
 
-function  openpopup1() {
-  var  x = document.querySelectorAll('.popup');
+function openpopup1() {
+  var x = document.querySelectorAll('.popup');
   if (x[0].style.display === "flex") {
     x[0].style.display = "none";
-  }  else {
+  } else {
     x[0].style.display = "flex";
   }
-   window.scroll({top:650});
+  window.scroll({ top: 560 });
 }
 
-function  closepopup1() {
-  var  y = document.querySelectorAll('.popup');
- if (y[0].style.display === "flex") {
+function closepopup1() {
+  var y = document.querySelectorAll('.popup');
+  if (y[0].style.display === "flex") {
     y[0].style.display = "none";
-  }  else {
+  } else {
     y[0].style.display = "flex";
   }
   workssection[0].classList.toggle('hide');
@@ -179,11 +179,9 @@ const seeprojectbutton = document.querySelectorAll(".seeproject");
 const workssection = document.querySelectorAll(".card-works");
 
 seeprojectbutton[0].addEventListener('click', () => {
-     openpopup1();
-      workssection[0].classList.toggle('hide');
+  openpopup1();
+  workssection[0].classList.toggle('hide');
 });
-
-
 
 window.addEventListener('DOMContentLoaded', () => {
   popupmodal[1].innerHTML =
@@ -221,29 +219,29 @@ window.addEventListener('DOMContentLoaded', () => {
       </div>
   </div>`;
 })
-function  openpopup2() {
-  var  x = document.querySelectorAll('.popup');
+function openpopup2() {
+  var x = document.querySelectorAll('.popup');
   if (x[1].style.display === "flex") {
     x[1].style.display = "none";
-  }  else {
+  } else {
     x[1].style.display = "flex";
   }
-   window.scroll({top:1280});
+  window.scroll({ top: 1330 });
 }
 
-function  closepopup2() {
-  var  y = document.querySelectorAll('.popup');
- if (y[1].style.display === "flex") {
+function closepopup2() {
+  var y = document.querySelectorAll('.popup');
+  if (y[1].style.display === "flex") {
     y[1].style.display = "none";
-  }  else {
+  } else {
     y[1].style.display = "flex";
   }
   workssection[1].classList.toggle('hide');
 }
 
 seeprojectbutton[1].addEventListener('click', () => {
-     openpopup2();
-      workssection[1].classList.toggle('hide');
+  openpopup2();
+  workssection[1].classList.toggle('hide');
 });
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -282,29 +280,29 @@ window.addEventListener('DOMContentLoaded', () => {
       </div>
   </div>`;
 })
-function  openpopup3() {
-  var  x = document.querySelectorAll('.popup');
+function openpopup3() {
+  var x = document.querySelectorAll('.popup');
   if (x[2].style.display === "flex") {
     x[2].style.display = "none";
-  }  else {
+  } else {
     x[2].style.display = "flex";
   }
-   window.scroll({top:1900});
+  window.scroll({ top: 2100 });
 }
 
-function  closepopup3() {
-  var  y = document.querySelectorAll('.popup');
- if (y[2].style.display === "flex") {
+function closepopup3() {
+  var y = document.querySelectorAll('.popup');
+  if (y[2].style.display === "flex") {
     y[2].style.display = "none";
-  }  else {
+  } else {
     y[2].style.display = "flex";
   }
   workssection[2].classList.toggle('hide');
 }
 
 seeprojectbutton[2].addEventListener('click', () => {
-     openpopup3();
-      workssection[2].classList.toggle('hide');
+  openpopup3();
+  workssection[2].classList.toggle('hide');
 });
 
 
@@ -344,27 +342,27 @@ window.addEventListener('DOMContentLoaded', () => {
       </div>
   </div>`;
 })
-function  openpopup4() {
-  var  x = document.querySelectorAll('.popup');
+function openpopup4() {
+  var x = document.querySelectorAll('.popup');
   if (x[3].style.display === "flex") {
     x[3].style.display = "none";
-  }  else {
+  } else {
     x[3].style.display = "flex";
   }
-   window.scroll({top:2500});
+  window.scroll({ top: 2870 });
 }
 
-function  closepopup4() {
-  var  y = document.querySelectorAll('.popup');
- if (y[3].style.display === "flex") {
+function closepopup4() {
+  var y = document.querySelectorAll('.popup');
+  if (y[3].style.display === "flex") {
     y[3].style.display = "none";
-  }  else {
+  } else {
     y[3].style.display = "flex";
   }
   workssection[3].classList.toggle('hide');
 }
 
 seeprojectbutton[3].addEventListener('click', () => {
-     openpopup4();
-      workssection[3].classList.toggle('hide');
+  openpopup4();
+  workssection[3].classList.toggle('hide');
 });
