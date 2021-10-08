@@ -876,74 +876,6 @@ header {
   }
 
 
-  .popup {
-    background-color: rgb(0, 0, 0, 0.1);
-    opacity: 0.95;
-    box-shadow: 10px 10px 5px grey;
-    z-index: 1;
-    height: 1000px;
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    cursor: pointer;
-  }
-
-  .popup .snapshot-portfolio {
-    height: 50%; 
-    width: 100%;
-    margin-left: 5%; 
-    margin-top: 10%;
-  }
-  
-  .popup .snapshot-portfolio img {
-    height: 100%;  
-    width: 100%;
-  }
-  
-  .popup .primary-text-box {
-    height: 15%;
-    width: 60%;
-    position: absolute;
-    margin-left: 3%;
-    margin-top: 0%;
-    transform: translateY(-600px);
-    
-  }
- 
-
-  .popup .info-block{
-    margin-top: 58%;
-    margin-left: -90%;
-    height: 35%;
-    width: 100%;
-    border: 1px solid blue;
-  }
-
-  .popup .project-description {
-     height: 100%;
-     width: 65%;
-     
-  }
-
-  .popup .project-frame {
-     margin-top: 2%;
-     width: 40%; 
-  }
-   
-  .popup .seeproject {
-    display: flex;
-  }
-  
-  .popup .project-tags {
-    width: 30%;
-    bottom:  92%;
-  
-  }
-
- /* .popup.close {
-
-    display: none;
-  }*/
 
   .project-title {
     font-family: Poppins, sans-serif;
@@ -964,7 +896,136 @@ header {
     text-align: left;
     color: rgba(9, 30, 66, 1);
   }
+  .card-works.hide {
+    display: none;
+  }
+
   
+
+  .popup {
+   display: none;
+   flex-direction: column;
+   border: 1px solid black;
+   width: 90%;
+   height: 1100px;
+   margin-left: 5%;
+   border-radius: 1%;
+   box-shadow: 10px 10px 5px lightgrey;
+   align-self: center;
+  }
+
+  .popup-project-title {
+    font-family: Poppins, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    color: rgba(23, 43, 77, 1);
+    margin-left: 5%;
+  }
+
+  .popup-project-frame {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+
+  .popup-project-frame h3 {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(52, 69, 99, 1);
+  }
+
+  .popup-project-frame h4 {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    text-align: left;
+    color: rgba(122, 134, 154, 1);
+  }
+
+  .popupsnapshot {
+    width: 95%;
+    height: 45%;
+    margin-top: 3%;
+    margin-left: 2%;
+  }
+
+  .popupsnapshot img{
+    width: 100%;
+    height: 100%;
+  }
+ 
+  .popup-project-description {
+    width: 65%;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(52, 69, 99, 1);
+  }
+
+  .popup-project-tags {
+    width: 25%;
+    margin-left: 75%;
+    position: relative;
+    top: -15%;
+  }
+
+  .popup-project-tags ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .popup-project-buttons {
+    width: 30%;
+    margin-left: 70%;
+    position: relative;
+    top: -10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .popup-project-buttons button {
+    height: 40px;
+    width: 142px;
+    border-radius: 8px;
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .popup-project-buttons button img {
+    margin-left: 10%;
+  }
+
+
+
+  
+
 }
 
 .about-myself {
