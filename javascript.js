@@ -3,6 +3,23 @@ const navlist = document.getElementById('navbar-list');
 const rightsect = document.getElementById('rightsection');
 const timesect = document.getElementById('timesection');
 const closebtn = document.getElementById('close-btn');
+var title1 = 'Tonic';
+var title2 = 'Multi-Post<br>Stories ';
+var Description = '<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> '
+var projimage1 = document.createElement('img');
+projimage1.src = 'img/desktop/0.png';
+var projimage2 = document.createElement('img');
+projimage2.src = 'img/desktop/1.png';
+var projimage3 = document.createElement('img');
+projimage3.src = 'img/desktop/2.png';
+var projimage4 = document.createElement('img');
+projimage4.src = 'img/desktop/3.png';
+var htmlimg = document.createElement('img');
+htmlimg.src = 'img/html.png';
+var cssimg = document.createElement('img');
+cssimg.src = 'img/css.png';
+var jsimg = document.createElement('img');
+jsimg.src = 'img/javascript.png';
 
 menubtn.addEventListener('click', () => {
   navlist.classList.toggle('show');
@@ -22,17 +39,6 @@ closebtn.addEventListener('click', () => {
   timesect.classList.toggle('hide');
 });
 
-var title1 = 'Tonic';
-var title2 = 'Multi-Post<br>Stories ';
-var Description = '<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> '
-var projimage1 = document.createElement('img');
-projimage1.src = 'img/desktop/0.png';
-var projimage2 = document.createElement('img');
-projimage2.src = 'img/desktop/1.png';
-var projimage3 = document.createElement('img');
-projimage3.src = 'img/desktop/2.png';
-var projimage4 = document.createElement('img');
-projimage4.src = 'img/desktop/3.png';
 
 const titlelist = document.querySelectorAll('.project-title');
 titlelist[0].innerHTML = title1;
@@ -53,16 +59,7 @@ for (let i = 0; i < 4; i++) {
   prolist[i].innerHTML = Description;
 }
 
-
-
-technologies = document.querySelectorAll('.project-tags');
-
-var htmlimg = document.createElement('img');
-htmlimg.src = 'img/html.png';
-var cssimg = document.createElement('img');
-cssimg.src = 'img/css.png';
-var jsimg = document.createElement('img');
-jsimg.src = 'img/javascript.png';
+const technologies = document.querySelectorAll('.project-tags');
 
 for (let i = 0; i <= 3; i++) {
   technologies[i].appendChild(htmlimg.cloneNode(true));
