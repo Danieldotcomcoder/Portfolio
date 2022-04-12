@@ -3,17 +3,22 @@ const navlist = document.getElementById('navbar-list');
 const rightsect = document.getElementById('rightsection');
 const timesect = document.getElementById('timesection');
 const closebtn = document.getElementById('close-btn');
-const title1 = 'Tonic';
-const title2 = 'Multi-Post<br>Stories ';
-const Description = '<p>A daily selection of privately personalized reads; no accounts or sign-ups required </p> ';
+const title1 = 'Conference-Page';
+const title2 = 'Covid-19 Tracker ';
+const title3 = 'Pinch of Salt ';
+const title4 = 'Space Hub';
+const Description1 = '<p>This project is 2 page Conference website .Implemented for Desktop and Mobile version using only HTML and CSS</p> ';
+const Description2 = '<p>A mobile web application that gets real-time data from the media group covid API and Displays the number of covid cases for any country and also main cities in any given country.</p> ';
+const Description3 = '<p>web application based on an external API. The application has 2 user interfaces: homepage where you can you can like your favorite meals and comments interface where you can add comments;</p> ';
+const Description4 = '<p> a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.</p> ';
 const projimage1 = document.createElement('img');
-projimage1.src = 'img/desktop/0.png';
+projimage1.src = 'img/p1.png';
 const projimage2 = document.createElement('img');
-projimage2.src = 'img/desktop/1.png';
+projimage2.src = 'img/p2.png';
 const projimage3 = document.createElement('img');
-projimage3.src = 'img/desktop/2.png';
+projimage3.src = 'img/p3.png';
 const projimage4 = document.createElement('img');
-projimage4.src = 'img/desktop/3.png';
+projimage4.src = 'img/p4.png';
 const htmlimg = document.createElement('img');
 htmlimg.src = 'img/html.png';
 const cssimg = document.createElement('img');
@@ -41,11 +46,11 @@ closebtn.addEventListener('click', () => {
 
 const titlelist = document.querySelectorAll('.project-title');
 titlelist[0].innerHTML = title1;
-titlelist[1].innerHTML = title1;
+titlelist[1].innerHTML = title2;
+titlelist[2].innerHTML = title3;
+titlelist[3].innerHTML = title4;
 
-const titlelist1 = document.querySelectorAll('.project-title1');
-titlelist1[0].innerHTML = title2;
-titlelist1[1].innerHTML = title2;
+
 
 const imglist = document.querySelectorAll('.snapshot-portfolio');
 imglist[0].appendChild(projimage1);
@@ -54,9 +59,10 @@ imglist[2].appendChild(projimage3);
 imglist[3].appendChild(projimage4);
 
 const prolist = document.querySelectorAll('.project-description');
-for (let i = 0; i < 4; i += 1) {
-  prolist[i].innerHTML = Description;
-}
+prolist[0].innerHTML = Description1;
+prolist[1].innerHTML = Description2;
+prolist[2].innerHTML = Description3;
+prolist[3].innerHTML = Description4;
 
 const technologies = document.querySelectorAll('.project-tags');
 
@@ -169,12 +175,12 @@ function closepopup1() {
   workssection[0].classList.toggle('hide');
 }
 
-const seeprojectbutton = document.querySelectorAll('.seeproject');
+// const seeprojectbutton = document.querySelectorAll('.seeproject');
 
-seeprojectbutton[0].addEventListener('click', () => {
-  openpopup1();
-  workssection[0].classList.toggle('hide');
-});
+// seeprojectbutton[0].addEventListener('click', () => {
+//   openpopup1();
+//   workssection[0].classList.toggle('hide');
+// });
 
 window.addEventListener('DOMContentLoaded', () => {
   popupmodal[1].innerHTML = `<div class='popup'>
