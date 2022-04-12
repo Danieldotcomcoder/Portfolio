@@ -10,7 +10,7 @@ In order to get a copy of this project :
  
 
 If you want to visit my webpage use the link below :
- > https://danieldotcomcoder.github.io/
+ > https://danieldotcomcoder.github.io/Portfolio/
 
 
 ## Built With
