@@ -276,6 +276,13 @@ header {
       url(img/desktop/Ellipse13.png) no-repeat 17% 11.4%,
       url(img/desktop/Ellipse12.png) no-repeat 18% 11%;
   }
+
+  .button-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+  }
 }
 
 @media screen and (max-width: 1000px) {
