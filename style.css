@@ -162,6 +162,17 @@ header {
 }
 
 @media screen and (min-width: 1000px) {
+
+  .project-description p {
+    font-family: Poppins, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(52, 69, 99, 1);
+  }
+
   .right-section {
     display: none;
   }
@@ -286,6 +297,24 @@ header {
 }
 
 @media screen and (max-width: 1000px) {
+
+  .project-description p {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgba(52, 69, 99, 1);
+  }
+
+  .button-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+  }
+
   .card-works.hide {
     display: none;
   }
@@ -389,6 +418,7 @@ header {
     text-overflow: ellipsis;
     overflow: hidden;
   }
+  
 
   .popup-project-tags {
     width: 25%;
@@ -442,7 +472,7 @@ header {
 
   .project-title {
     font-family: Poppins, sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 52px;
@@ -452,7 +482,7 @@ header {
 
   .project-title1 {
     font-family: Poppins, sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
@@ -548,6 +578,8 @@ header {
   .desktopsize {
     display: none;
   }
+
+
 }
 
 .works {
@@ -728,15 +760,7 @@ header {
   color: rgba(122, 134, 154, 1);
 }
 
-.project-description p {
-  font-family: Poppins, sans-serif;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 24px;
-  text-align: left;
-  color: rgba(52, 69, 99, 1);
-}
+
 
 .project-frame1 {
   display: flex;
