@@ -462,8 +462,7 @@ header {
   }
 
   .snapshot-portfolio img {
-    width: 100%;
-    height: 100%;
+    box-sizing: border-box;
   }
 
   .popup-project-buttons button img {
@@ -618,6 +617,7 @@ header {
   width: 90%;
   height: 220px;
   border-radius: 8px;
+  border: 1px solid black;
 }
 
 .info-block {
