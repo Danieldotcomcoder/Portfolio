@@ -25,7 +25,7 @@ If you want to visit my webpage use the link below :
 
 - GitHub: [https://github.com/Danieldotcomcoder)]
 - Twitter: [https://twitter.com/DannyDotcoder)]
-- LinkedIn: [https://www.linkedin.com/in/daniel-shdeed-832b03115/]
+- LinkedIn: [https://www.linkedin.com/in/daniel-shdeed/]
 
 ## Show your support
 
