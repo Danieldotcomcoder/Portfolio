@@ -33,8 +33,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used.
-- Anyone can download and use this code.
-- Thanks for figma for inspiring this desgin. :)
+ Thanks for figma for inspiring this desgin. :)
 
 
