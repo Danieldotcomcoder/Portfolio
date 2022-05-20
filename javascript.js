@@ -334,8 +334,8 @@ window.addEventListener('DOMContentLoaded', () => {
       </ul>
       </div>
       <div class='popup-project-buttons'>
-      <a href=${projectinformation[3].link}> <button>&nbsp&nbsp&nbsp&nbsp  See live <img src='img/btn-img-live.png' width='15' height='15' ></button></a>
-      <a href=${projectinformation[3].source}> <button>&nbsp&nbsp&nbsp&nbsp  See Source <img src='img/btn-img-src.png' width='15' height='15'></button></a>
+      <a href=${projectinformation[3].link}> <button>&nbsp&nbsp&nbsp&nbsp See live <img src='img/btn-img-live.png' width='15' height='15' ></button></a>
+      <a href=${projectinformation[3].source}> <button>&nbsp&nbsp&nbsp&nbsp See Source <img src='img/btn-img-src.png' width='15' height='15'></button></a>
       </div>
   </div>`;
 });
