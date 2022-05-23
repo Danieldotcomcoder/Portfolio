@@ -462,6 +462,7 @@ header {
   }
 
   .snapshot-portfolio img {
+    image-rendering: -webkit-optimize-contrast;
     box-sizing: border-box;
   }
 
@@ -871,7 +872,8 @@ header {
     margin-bottom: 10%;
   }
 
-  .snapshot-portfolio {
+   .snapshot-portfolio {
+    image-rendering: -webkit-optimize-contrast;
     margin-top: 2%;
     margin-left: 2%;
     width: 50%;
