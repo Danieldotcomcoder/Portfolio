@@ -1601,7 +1601,6 @@ button:hover {
 
   .skill-language-text {
     margin-top: 10%;
-    background: url(img/desktop/Union1.png) no-repeat 100% 40%;
   }
 
   .skill-language-text h3 {
@@ -1634,13 +1633,11 @@ button:hover {
 
   .skill-framework {
     margin-top: 15%;
-    background: url(img/desktop/Union2.png) no-repeat 100% 20%;
     width: 150%;
   }
 
   .skill-skill {
     width: 150%;
-    background: url(img/desktop/Union2.png) no-repeat 100% 20%;
   }
 
   .skill-framework h3 {
@@ -1664,10 +1661,11 @@ button:hover {
   }
 
   .desktopsize {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
     justify-content: space-between;
     width: 70%;
+    margin-left: 5%;
     margin-bottom: 0%;
   }
 
