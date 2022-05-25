@@ -1669,6 +1669,16 @@ button:hover {
     margin-bottom: 0%;
   }
 
+  .desktopsize img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+
+  .desktopsize img:hover {
+    transform: rotateY(180deg);
+  }
+
   .contact-me {
     margin-top: 30%;
     width: 100%;
