@@ -33,6 +33,4 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
- Thanks for figma for inspiring this desgin. :)
-
-
+ Thanks for figma for inspiring this desgin.
