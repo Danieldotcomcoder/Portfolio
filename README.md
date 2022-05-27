@@ -1,6 +1,6 @@
 # Project Name: Personal Portfolio .
 
-> In this project I built my personal portfolio , It is a Responsive webpage so you can view it on your mobile or on a Desktop version , The webpage consists of 5 main sections: header, body-section, works-section, about myself-section and finally contact-me section.
+> In this project I built my personal portfolio, The webpage consists of 5 main sections: header, body-section, works-section, about myself-section and finally contact-me section.
 
 
 In order to get a copy of this project :
@@ -18,6 +18,7 @@ If you want to visit my webpage use the link below :
 - Major languages :
    * HTML — Hypertext Markup Language
    * CSS — Cascading Style Sheet
+   * Javascript
 
 ## Author
 
