@@ -577,9 +577,34 @@ header {
   }
 
   .desktopsize {
-    display: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    width: 70%;
   }
 
+  .desktopsize {
+    margin-top: 0%;
+  }
+  
+  .desktopsize img {
+    width: 80px;
+    height: 80px;
+    margin-left: 5px;
+  }
+
+  .skill-list-section {
+       display: flex;
+  }
+  
+  .skill-list-categories {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .skill-language-text {
+    margin-bottom: 0%;
+  }
 
 }
 
