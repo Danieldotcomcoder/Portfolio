@@ -175,13 +175,6 @@ function closepopup1() {
   workssection[0].classList.toggle('hide');
 }
 
-// const seeprojectbutton = document.querySelectorAll('.seeproject');
-
-// seeprojectbutton[0].addEventListener('click', () => {
-//   openpopup1();
-//   workssection[0].classList.toggle('hide');
-// });
-
 window.addEventListener('DOMContentLoaded', () => {
   popupmodal[1].innerHTML = `<div class='popup'>
         <div class='popup-info-block'>
