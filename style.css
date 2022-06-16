@@ -900,16 +900,19 @@ header {
 
    .snapshot-portfolio {
     image-rendering: -webkit-optimize-contrast;
-    margin-top: 2%;
+    object-fit: fill;
+    margin-top: 3%;
     margin-left: 2%;
     width: 50%;
-    height: 90%;
+    height: 75%;
     border: 1px solid transparent;
+    
   }
 
   .snapshot-portfolio img {
     width: 100%;
     height: 100%;
+    object-fit: fill;
   }
 
   .info-block {
